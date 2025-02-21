@@ -1,0 +1,289 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ 
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    background-size: 650px 100% !important;
+    padding: 20px 0;
+
+    .navfix {
+        width: 85%;
+        filter: invert(1);
+        padding: 20px 0;
+        .nav_modal {
+            filter: invert(1);
+        }
+    }
+
+}
+
+.about_router {
+    font-family: "Inter";
+    padding: 60px 0;
+         width: 85%;
+         font-size: 14px;
+         color: #B3B3B3;
+     }
+
+
+.financial_statements {
+    padding-bottom: 120px;
+    width: 85%;
+    
+    .title {
+        font-family: 'Gilroy_Bold';
+        font-size: 32px;
+    }
+
+    .block_btns {
+        margin: 10px 0;
+        display: flex; 
+        gap: 150px;
+        .btn {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            align-items: center;
+            position: relative;
+            margin-top: 30px;
+            font-family: "Gilroy";
+            font-size: 18px;
+            padding-left: 26px;
+            width: 64px;
+            height: 64px;
+            letter-spacing: 0.5px;
+            color: #B3B3B3 ;
+            background: none;
+            border: 1px solid #B3B3B3 ;
+            border-radius: 100%;
+            transition: 1s;
+            
+            span {
+
+                font-family: "Gilroy";
+
+                padding-left: 3.5px;
+                color: #B3B3B3 ;
+
+            }            
+        }
+
+        .active {
+            color: rgb(255, 255, 255) ;
+            background-color: #004444 ;
+            border:1px solid #004444 ;
+            span {padding-left: 3px;
+                font-weight: 600;
+                color: rgb(0, 0, 0);
+            }
+        }
+
+    }
+
+    .color-grey {
+
+        text-decoration: none !important;
+        color: #B3B3B3;
+    }
+
+    .list_annual {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+            font-weight: 900;
+        gap: 15px;
+
+        .card {
+            width: 100%;
+            height: 40px;
+            border-bottom: 2px solid #E6E6E6;
+
+            .info {
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+                height: 20px;
+
+                .year {
+                    font-family: "Gilroy";
+                    font-family: "Gilroy_Light";
+                    font-weight: 800;
+                    font-weight: 100;
+                    height: 19.5px;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+
+    .list_quarterly {
+        margin-top: 50px;
+        width: 90%;
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+
+        .card {
+            margin-top: 10px;
+            width: 100%;
+            height: 40px;
+            border-bottom: 2px solid #E6E6E6;
+
+            .info {
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+
+                .year {
+                    font-family: "Gilroy_Bold";
+                    font-size: 18px;
+                    font-weight: 800;
+                }
+                .text {
+                    font-family: "Gilroy";
+                    font-size: 14px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .list_monthly {
+        margin-top: 50px;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+
+        .card {
+            margin-top: 10px;
+            width: 100%;
+            height: 95px;
+            border-bottom: 2px solid #E6E6E6;
+            
+                .year {
+                    font-family: "Gilroy_Bold";
+                    font-size: 20px;
+                    font-weight: 800;
+                    margin-bottom: 30px;
+                }
+
+            .info {
+                width: 95%;
+                display: flex;
+                justify-content: space-between;
+
+
+                .text {
+                    font-family: "Gilroy";
+                    font-size: 14px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.financial_statements_adaptive {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: #1F1F1F !important;
+    padding: 50px 50px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .list_annual ,
+    .list_quarterly,
+    .list_monthly {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .financial_statements {
+        display: none;
+    }
+    .financial_statements_adaptive {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 100px auto;
+        width: 85%;
+
+        .title {
+            font-family: 'Gilroy-Bold';
+            font-size: 24px;
+        }
+
+        details>summary::marker {
+            display: none;
+            content: '';
+        }
+
+        .list_financial {
+                width: 100%;
+            summary {
+                padding:15px 30px;
+                background: rgba(239, 239, 239, 1);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 10px;
+                transition: 0.5s;
+                color: #B3B3B3;
+                p {
+                    font-size: 14px;
+                }
+                img {
+                    transition: 0.5s;
+                    filter: grayscale(100%) brightness(65%) ;
+                }
+            }
+            div {
+                margin-top: 10px;
+                padding:15px 30px;
+                border-radius: 10px;
+                background: rgba(239, 239, 239, 1);
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        .list_financial[open] {
+            summary {
+                color: white;
+                background: #005555;
+                img {
+
+                    filter: grayscale(100%) brightness(0%) invert(1);
+
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+}

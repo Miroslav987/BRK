@@ -1,0 +1,22 @@
+.about_video_online {
+    display: none;
+    padding-top: 120px;
+    .main_text {
+        width: 50%;
+        margin: auto;
+        font-size: 38px;
+        font-family: Lighthaus;
+        text-align: center;
+    }
+    .video_online {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        margin: auto;
+        width: 90%;
+        height: 504px;
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

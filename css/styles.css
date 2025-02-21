@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "CenturyGothic";
+    src: url('../style-text/CenturyGothic/CenturyGothic.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "CenturyGothic_Bold";
+    src: url('../style-text/CenturyGothic/CenturyGothic_Bold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "TimesNewRoman";
+    src: url('../style-text/TimesNewRoman.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy_Bold";
+    src: url('../style-text/Gilroy/Gilroy-ExtraBold.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url('../style-text/Gilroy/Gilroy_Medium.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gilroy_Light";
+    src: url('../style-text/Gilroy/Gilroy-Light.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamPro_Light";
+    src: url('../style-text/GothamPro/GothamPro_Light.ttf') format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamPro";
+    src: url('../style-text/GothamPro/GothamPro_Medium.ttf') format("truetype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../style-text/Inter.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lighthaus";
+    src: url('../style-text/LighthausRegular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../style-text/Montserrat.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url('../style-text/Rubik.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TimesNewRoman";
+    src: url('../style-text/TimesNewRoman.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input:-webkit-autofill {
+    background-color: rgba(255, 255, 255, 0) !important;
+    background: rgba(255, 255, 255, 0) !important;
+    filter: invert(1) !important ;
+
+
+}
+
+/* Для Firefox */
+
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.floating_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #005555;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background .3s, transform .2s;
+    padding: 18px;
+    z-index:10 ;
+    animation: pulse 1.5s infinite;
+    -webkit-animation: pulsing 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 #00a8a8;
+}
+
+.floating_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    /*background: #38a04b;*/
+}
+
+.floating_btn img {
+    max-width: 42px;
+}
+@keyframes pulsing {
+    to {
+        box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+}

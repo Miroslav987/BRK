@@ -1,0 +1,156 @@
+.about_our_objects {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 195px;
+    padding-left: 110px;
+    .main_text {
+        padding-right: 110px;
+        font-size: 42px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+
+    .swiper_our_objects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        .card {
+            transition: transform 0.8s ease-in-out;
+            color: white;
+            position: relative;
+            /*width: 32%;*/
+            width: 400px;
+            border-radius: 10px;
+            font-family: 'Gilroy';
+            /*width: 32%;*/
+
+            .img {
+                width: 100%;
+
+                img {
+                    border-radius: 20px;
+
+                    width: 100%;
+                    height:458px;
+                    object-fit: cover;
+                }
+            }
+
+            .card_block {
+                border-radius: 20px;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.38%, rgba(0, 0, 0, 0.6) 82.61%);
+                position: absolute;
+                bottom: 3px;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+
+                .card_info {
+                    position: absolute;
+                    bottom: 0;
+                    padding: 20px;
+
+                    .address_text {
+                        padding: 15px 0;
+                        font-weight: 600;
+                        font-size: 16px;
+
+                        span {
+                            font-weight: 400;
+                        }
+                    }
+
+                    .title_text {
+                        font-family: "Gilroy";
+                        font-size: 22px;
+                        font-weight: 900;
+                        letter-spacing: 0.5px;
+                    }
+
+                    .brk_btn {
+                        background: white;
+                        margin-left: 0 !important;
+
+                        p {
+                            color: black;
+                        }
+
+                        span {
+                            color: white;
+                        }
+
+                        img {
+                            filter: grayscale(100%) brightness(0%) invert(1);
+
+                        }
+
+                    }
+
+                    .brk_btn:hover {
+                        opacity: 1 !important;
+                        span {
+                            color: black;
+                        }
+
+                        img {
+                            filter: grayscale(100%) brightness(0%);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .swiper_btns {
+            position: absolute;
+            bottom: 135px;
+            left: 0;
+            right: 0;
+            width: 150px;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+
+            .swiper-button-prev {
+                padding-top: 4.5%;
+                transform: rotate(180deg);
+            }
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                filter: grayscale(100%) brightness(0%) invert(1);
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: none;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .swiper-button-next::after,
+            .swiper-button-prev::after {
+                content: "";
+            }
+
+        }
+    }
+}
+
+@media screen and  (max-width: 1000px){
+    .about_our_objects {
+        padding-left: 0;
+        .main_text {
+            padding-right: 0;
+        }
+        .swiper_our_objects {
+            width: 90%;
+        }
+    }
+}

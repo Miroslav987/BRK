@@ -1,0 +1,58 @@
+
+
+.brk_btn{
+
+    /*margin-left: -100px;*/
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    padding-left: 25px;
+    border: none;
+    color: white;
+    background-color: #1F1F1F;
+    border-radius: 100px;
+    z-index: 1;
+    transition: 0.2s linear ;
+    p {
+        transition: 0.2s linear ;
+        font-weight: 600;
+        font-family: 'Gilroy';
+
+    }
+
+    img {
+        transition: 0.2s linear ;
+        padding-left: 10px;
+        padding-top: 3px;
+        filter: grayscale(100%) brightness(0%);
+    }
+
+    span {
+        transition: 0.2s linear ;
+        font-family: "Gilroy";
+        font-weight: 100;
+        color: #1F1F1F;
+    }
+
+
+}
+
+.brk_btn:hover {
+    cursor:pointer;
+    margin-left: 0 !important;
+    width: 160px;
+    span {
+        font-weight: 600;
+        color: white;
+    }
+    img {
+        filter: grayscale(100%) brightness(0%) invert(1);
+    }
+}
+
+

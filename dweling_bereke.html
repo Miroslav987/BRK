@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/brk_btn.css" />
+    <link rel="stylesheet" href="../css/our_objects.css" />
+    <link rel="stylesheet" href="../css/dweling_bereke.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <title>Dweling_bereke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navfix container">
+            <a href="index.html" class="logo">
+                <img src="../icons/logo.svg" alt="" />
+            </a>
+            <div class="nav_text">
+                <!--          <a href="index.html">home1</a>-->
+                <!--          <a href="./index2.html">home2</a>-->
+                <a href="index.html">О компании</a>
+                <div class="nav_btn">
+                    <p>Объекты BRK group</p>
+                    <div class="nav_modal">
+                        <a href="../premium_absolute.html">Бизнес-центр Absolute</a>
+                        <a href="../premium_triumf.html">Бизнес-центр Триумф</a>
+                        <a href="../club_baytik.html">Клубный комплекс Baytik</a>
+
+                    </div>
+                </div>
+                <div class="nav_btn" id="nav_btn">
+                    <p>Объекты Bereke building</p>
+                    <div class="nav_modal">
+                        <a href="../dweling_karagat.html">Жилой комплекс Карагат</a>
+                        <a href="../dweling_bereke.html">Жилой комплекс Береке</a>
+
+                    </div>
+                </div>
+                <a href="../index.html#about_our_team">Наша команда</a>
+                <a href="../index.html#about_questions">FAQ</a>
+            </div>
+            <div class="nav_connect">
+                <div class="right_block">
+                    <a href="tel:+996550555577">+996 501 55 55 77</a>
+                </div>
+                <div class="line"></div>
+                <div class="left_block">
+                    <a href="https://go.2gis.com/j8eqw" target="_blank">
+                        г.Бишкек, проспект <br />
+                        Чынгыза Айтматова 24</a>
+                </div>
+            </div>
+        </nav>
+        <nav class="navfix_adaptive">
+            <a href="index.html" class="logo">
+                <img src="../icons/logo.svg" alt="" />
+            </a>
+            <button class="btn_nafixClose">+</button>
+            <button class="btn_nafixOpen"><img src="../icons/burgerMenu.svg" alt=""></button>
+        </nav>
+        <nav class="nav_adaptive_modal">
+            <div class="nav_adaptive_blur"></div>
+            <div class="nav_adaptive_modal_info">
+                <div>
+                    <p class="title">Нав<span>игация</span></p>
+                    <a href="index.html">О компании</a>
+                    <details>
+                        <summary>Объекты BRK group</summary>
+                        <a href="./club_baytik.html">Клубный дом BAYTIK</a>
+                        <a href="./premium_absolute.html">Бизнес-центр ABSOLUTE</a>
+                        <a href="./premium_triumf.html">Бизнес-центр «Триумф»</a>
+                    </details>
+                    <details>
+                        <summary>Объекты Bereke building</summary>
+                        <a href="./dweling_bereke.html">Жилой комплекс «Береке»</a>
+                        <a href="./dweling_karagat.html">Жилой комплекс «Карагат»</a>
+                    </details>
+                    <a href="./financial_statements.html">Финансовая отчетность</a><br>
+                    <a href="./vacancies.html">Вакансии</a> <br/>
+                    <a href="../index.html#about_our_team">Наша команда</a><br/>
+                    <a href="../index.html#about_questions">FAQ</a>
+                </div>
+                <div>
+                    <p class="title">Свя<span>заться</span></p>
+                    <a href="https://go.2gis.com/j8eqw">
+                        <p class="contact_block location"> г.Бишкек, проспект <br> Чынгыза Айтматова 24</p></a>
+                    </a>
+                    <a href="tel:+996550555577">
+                        <p class="contact_block phone">+996 501 55 55 77</p>
+                    </a>
+                </div>
+                <div>
+                    <p class="title title_three">Соц<span>сети</span></p>
+                    <a href="https://www.instagram.com/brkgroup.kg/?igsh=MWl3bzlsbWpxendpYw%3D%3D" target="_blank"><img src="../icons/instagram.svg" alt=""></a>
+                    <a href="https://m.facebook.com/100088667681941/?locale=ru_RU" target="_blank"> <img src="../icons/facebook.svg" alt=""></a>
+                    <a href="https://www.youtube.com/@brkpodcast" target="_blank"><img src="../icons/youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </nav>
+        <section class="main_info container">
+            <div class="main_info_text">
+            <img src="../icons/dweling_bereke/mainIcon.svg" alt="" />
+            <p class="main_text">Жилой комплекс «Bereke»</p>
+            <section class="main_info_list">
+                <div>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon1.svg" alt="" />
+                        <p>Этажность    <br/>
+                            - 9 этажей
+                        </p>
+                    </section>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon2.svg" alt="" />
+                        <p>4-х камерные <br/>
+                            армированные окна</p>
+                    </section>
+
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon7.svg" alt="" />
+                        <p>Заполнение стен: <br/>
+                            жженый кирпич</p>
+                    </section>
+                </div>
+                <div>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon4.svg" alt="" />
+                        <p>10 см базальтовый <br/>
+                            утеплитель</p>
+                    </section>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon5.svg" alt="" />
+                        <p>Автономное газовое <br/>
+                            отопление</p>
+                    </section>
+
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon8.svg" alt="" />
+                        <p>Наличие <br/>
+                            парковой зоны</p>
+                    </section>
+                </div>
+
+                <div>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon3.svg" alt="" />
+                        <p>Высота  <br/>
+                            потолков: 3 м</p>
+                    </section>
+                    <section class="main_info_card">
+                        <img src="../icons/dweling_bereke/icon6.svg" alt="" />
+                        <p> Лифт: Kone 1  <br/>
+                            тонный</p>
+                    </section>
+                </div>
+            </section>
+            </div>
+            <div class="main_Img">
+                <img  src="../images/dweling_bereke/mainImg.jpg">
+            </div>
+        </section>
+    </header>
+    <a href="https://wa.me/996550555577" class="floating_btn"  target="_blank">
+        <img src="/icons/whatsApp.svg" alt="">
+        <div class="floating_btn_bg"></div>
+    </a>
+    <main>
+
+        <article class="about_architecture container">
+            <section class="left_block">
+                <section class="info_block">
+                    <p class="main_text">Жилой комплекс "Береке": Комфорт и гармония на стыке природы и города
+                    </p>
+                    <div class="patternt"></div>
+                    <p class="extra_text">
+                        Жилой комплекс "Береке" — это современный проект,
+                        созданный с учетом всех потребностей комфортного
+                        проживания. Расположенный в живописной западной части
+                        столицы, он предлагает уникальное сочетание городской
+                        инфраструктуры и природной гармонии. Вдоль побережья
+                        реки Ала-Арча сформирована экосистема, которая идеально
+                        дополняет стиль жизни будущих жильцов. Здесь каждый найдет
+                        уютное и безопасное пространство для жизни, наслаждаясь
+                        комфортом и удобствами, которые предлагает этот жилой комплекс.
+                    </p>
+                </section>
+                <section class="img">
+                    <img class="architecture_leftImg" src="../images/dweling_bereke/architecture1.jpg" alt="" />
+                </section>
+            </section>
+
+            <section class="right_block">
+                <section class="img">
+                    <img class="architecture_rightImg" src="../images/dweling_bereke/architecture2.jpg" alt="" />
+                </section>
+                <section class="info_block">
+                    <section class="architecture_rightInfo">
+                        <p class="main_text">Архитектура</p>
+                        <div class="patternt"></div>
+                        <p class="extra_text">
+                            Расположение жилого комплекса "Береке" в западной части
+                            столицы — это его главное преимущество. На берегу реки
+                            Ала-Арча жители могут наслаждаться природой и свежим воздухом
+                            , а близость к паркам делает прогулки и активный отдых доступными
+                            в любое время. Кроме того, комплекс предлагает удобства городской
+                            инфраструктуры: рядом находятся кафе и рестораны для приятных встреч,
+                            мечети для духовного общения и банки для решения финансовых вопросов.
+                            Семьи оценят близость учебных заведений и рынков, где можно купить свежие продукты.
+                        </p>
+                        <section class="extra_info">
+                            <div>
+                                <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                                <p>Комфорт класс</p>
+                            </div>
+                            <div>
+                                <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                                <p>9 этажей</p>
+                            </div>
+                            <div>
+                                <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                                <p>572 квартир</p>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </article>
+        
+        <article class="about_location container">
+            <section class="img">
+                <img src="../images/dweling_bereke/map.jpg" alt="" />
+            </section>
+            <section>
+                <section class="location_info_block" >
+                    <p class="main_text">Расположение</p>
+                    <div class="patternt"></div>
+                    <section class="extra_info">
+                        <div>
+                            <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                            <p>На берегу реки Ала-Арча</p>
+                        </div>
+                        <div>
+                            <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                            <p>Паркинг на 120 машин</p>
+                        </div>
+                        <div>
+                            <img src="../icons/dweling_bereke/bigpattern.svg" alt="" />
+                            <p>Территория участка 1,5 га</p>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </article>
+
+        <article class="about_listImg ">
+            <section class="listImg">
+                <section class="vertical_img">
+                    <img src="../images/dweling_bereke/listImg1.jpg" alt="" />
+                    <img src="../images/dweling_bereke/listImg2.jpg" alt="" />
+                </section>
+                <section>
+                    <img src="../images/dweling_bereke/listImg3.jpg" alt="" />
+                </section>
+                <section class="vertical_img">
+                    <section class="horizontal_img">
+                        <img src="../images/dweling_bereke/listImg4.jpg" alt="" />
+                        <img src="../images/dweling_bereke/listImg5.jpg" alt="" />
+                    </section>
+                    <img src="../images/dweling_bereke/listImg6.jpg" alt="" />
+                </section>
+            </section>
+        </article>
+
+        <article class="swiper">
+
+            <section class="swiper-wrapper">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg1.jpg" alt="">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg2.jpg" alt="">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg3.jpg" alt="">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg4.jpg" alt="">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg5.jpg" alt="">
+                <img class="swiper-slide" src="../images/dweling_bereke/listImg6.jpg" alt="">
+
+            </section>
+
+            <section class="swiper_btns">
+                <button class="swiper-button-next"> </button>
+                <button class="swiper-button-prev"></button>
+            </section>
+
+        </article>
+
+<!--        <article class="about_layout_plan container">-->
+<!--            <section class="main_info">-->
+<!--                <p class="main_text">Типовая планировка</p>-->
+<!--                <div class="patternt"></div>-->
+<!--            </section>-->
+
+<!--            <section class="img_plan">-->
+<!--                <button class="one">-->
+<!--                    <p>1</p>-->
+<!--                    <span>БЛОК</span>-->
+<!--                </button>-->
+<!--                <button class="two">-->
+<!--                    <p>2</p>-->
+<!--                    <span>БЛОК</span>-->
+<!--                </button>-->
+<!--                <button class="three">-->
+<!--                    <p>3</p>-->
+<!--                    <span>БЛОК</span>-->
+<!--                </button>-->
+<!--                <button class="four">-->
+<!--                    <p>4</p>-->
+<!--                    <span>БЛОК</span>-->
+<!--                </button>-->
+<!--            </section>-->
+<!--        <div id="modal"></div>-->
+<!--        </article>-->
+
+
+        <article class="about_layout_apartment container">
+            <section class="main_info">
+                <p class="main_text">Планировка квартир</p>
+                <div class="patternt"></div>
+            </section>
+            <section class="list_btn">
+                <button>Однокомнатные</button>
+                <button>Двухкомнатные</button>
+                <button>Трехкомнатные</button>
+                <button>Четырехкомнатные</button>
+                <button>Пятикомнатные</button>
+            </section>
+            <section class="list_plan">
+                <section class="card">
+                    <p>2-комнатная квартира «А» 77,13 м²</p>
+                    <img class="planImg" src="../images/dweling_karagat/plan.jpg" alt="" />
+                    <div class="info_block">
+                        <p>Холл - 13,32 м²</p>
+                        <p>Коридор - 11,90 м²</p>
+                    </div>
+                    <div class="extra_info_block">
+                        <div>
+                            <p>Ванная<br/> комната 1 - 7,13 м²</p>
+                            <p>Ванная<br/> комната 2 - 4,61 м²</p>
+                        </div>
+                        <div>
+                            <p>Ванная<br/> комната 3 - 4,61 м²</p>
+                            <p>Гостиная - 35,66 м²</p>
+                        </div>
+
+                        <div><p>Кабинет - 16,79 м²</p> <p>Кухня - 23,96 м²</p></div>
+                        <div><p>Гардеробная 1 - 5,41 м²</p> <p>Гардеробная 2 - 3,50 м²</p></div>
+                        <div><p>Спальня 1 - 27,25 м²</p> <p>Спальня 2 - 23,33 м²</p></div>
+                        <div><p>Спальня 3 - 27,46 м²</p></div>
+
+                        <button  class="btn_close">
+                           Скрыть <img src="../icons/arrow.svg" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn_open">
+                        Подробнее <img src="../icons/arrow.svg" alt="" />
+                    </button>
+                </section>
+                <section class="card">
+                    <p>2-комнатная квартира «А» 77,13 м²</p>
+                    <img class="planImg" src="../images/dweling_karagat/plan.jpg" alt="" />
+                    <div class="info_block">
+                        <p>Холл - 13,32 м²</p>
+                        <p>Коридор - 11,90 м²</p>
+                    </div>
+                    <div class="extra_info_block">
+                        <div>
+                            <p>Ванная<br/> комната 1 - 7,13 м²</p>
+                            <p>Ванная<br/> комната 2 - 4,61 м²</p>
+                        </div>
+                        <div>
+                            <p>Ванная<br/> комната 3 - 4,61 м²</p>
+                            <p>Гостиная - 35,66 м²</p>
+                        </div>
+
+                        <div><p>Кабинет - 16,79 м²</p> <p>Кухня - 23,96 м²</p></div>
+                        <div><p>Гардеробная 1 - 5,41 м²</p> <p>Гардеробная 2 - 3,50 м²</p></div>
+                        <div><p>Спальня 1 - 27,25 м²</p> <p>Спальня 2 - 23,33 м²</p></div>
+                        <div><p>Спальня 3 - 27,46 м²</p></div>
+
+                        <button  class="btn_close">
+                            Скрыть <img src="../icons/arrow.svg" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn_open">
+                        Подробнее <img src="../icons/arrow.svg" alt="" />
+                    </button>
+                </section>
+
+                <section class="card">
+                    <p>2-комнатная квартира «А» 77,13 м²</p>
+                    <img class="planImg" src="../images/dweling_karagat/plan.jpg" alt="" />
+                    <div class="info_block">
+                        <p>Холл - 13,32 м²</p>
+                        <p>Коридор - 11,90 м²</p>
+                    </div>
+                    <div class="extra_info_block">
+                        <div>
+                            <p>Ванная<br/> комната 1 - 7,13 м²</p>
+                            <p>Ванная<br/> комната 2 - 4,61 м²</p>
+                        </div>
+                        <div>
+                            <p>Ванная<br/> комната 3 - 4,61 м²</p>
+                            <p>Гостиная - 35,66 м²</p>
+                        </div>
+
+                        <div><p>Кабинет - 16,79 м²</p> <p>Кухня - 23,96 м²</p></div>
+                        <div><p>Гардеробная 1 - 5,41 м²</p> <p>Гардеробная 2 - 3,50 м²</p></div>
+                        <div><p>Спальня 1 - 27,25 м²</p> <p>Спальня 2 - 23,33 м²</p></div>
+                        <div><p>Спальня 3 - 27,46 м²</p></div>
+
+                        <button  class="btn_close">
+                            Скрыть <img src="../icons/arrow.svg" alt="" />
+                        </button>
+                    </div>
+                    <button class="btn_open">
+                        Подробнее <img src="../icons/arrow.svg" alt="" />
+                    </button>
+                </section>
+
+            </section>
+        </article>
+        <article class="about_contact_us ">
+            <div class=" contact_us_info container">
+            <p class="main_text">Свяжитесь с нами</p>
+            <section class="inputs">
+                <input class="user" placeholder="Имя" type="text" />
+                <input class="phone" id="phone" placeholder="+996" inputmode="numeric" autocomplete="off"/>
+            </section>
+
+            <section class="text">
+                Мы обеспечиваем надежность Ваших персональных данных
+            </section>
+            <button>Связаться</button>
+            </div>
+        </article>
+        <div class="about_our_objects ">
+            <p class="main_text container">наши объекты</p>
+            <div class="swiper_our_objects container">
+
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide  ">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card1.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">КЛУБНЫЙ ДОМ BAYTIK</p>
+
+                                <a href="./club_baytik.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card2.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">БИЗНЕС-ЦЕНТР ABSOLUTE</p>
+
+                                <a href="./premium_absolute.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card3.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">БИЗНЕС-ЦЕНТР TRIUMPH</p>
+
+                                <a href="./premium_triumf.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card6.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">Жилой комплекс "Карагат"</p>
+
+                                <a href="./dweling_karagat.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card swiper-slide  ">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card1.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">КЛУБНЫЙ ДОМ BAYTIK</p>
+
+                                <a href="./club_baytik.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card2.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">БИЗНЕС-ЦЕНТР ABSOLUTE</p>
+
+                                <a href="./premium_absolute.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card3.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">БИЗНЕС-ЦЕНТР TRIUMPH</p>
+
+                                <a href="./premium_triumf.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card swiper-slide">
+
+                        <div class="img">
+                            <img src="../images/our_objects/card6.png" alt="">
+                        </div>
+
+                        <div class="card_block">
+                            <div class="card_info">
+                                <p class="address_text">Адрес: <span>Гранитный 14 (Медерова/Элебаева) </span> </p>
+                                <p class="title_text">Жилой комплекс "Карагат"</p>
+
+                                <a href="./dweling_karagat.html">
+                                    <button class="brk_btn"><p>Под </p><span>робнее</span> <img src="../icons/arrow.svg" alt=""></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper_btns">
+                    <button class="swiper-button-next">
+                        <img src="../icons/arrow.svg" alt="" />
+                    </button>
+                    <button class="swiper-button-prev">
+                        <img src="../icons/arrow.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <nav class="container">
+            <section class="nav_form">
+                <a class="logo" href="">
+                    <img alt="" src="../icons/logo.svg" />
+                </a>
+                <p class="foot_info_text">
+                    Команда BRK Group — это сочетание опыта, профессионализма и преданности делу.
+                    Мы гордимся тем, что в нашей команде работают дипломированные специалисты с
+                    более чем 15-летним опытом в области строительства и проектирования.
+                    В BRK Group мы не просто строим здания — мы создаем долговечные отношения с
+                    клиентами и партнерами, основываясь на доверии и высоких стандартах качества.
+                </p>
+                <a class="text_location" href="https://go.2gis.com/j8eqw" target="_blank">
+                    <img alt="" src="../icons/location.svg" /> г.Бишкек, проспект
+                    Чынгыза Айтматова 24
+                </a>
+            </section>
+            <div class="nav_navigate_contact_social">
+                <div class="nav_navigate_contact">
+                    <section>
+                        <p class="title">Навигация</p>
+                        <a href="index.html">О компании</a>
+                        <a href="#nav_btn" >Объекты Bereke building</a>
+                        <a href="#nav_btn" >Объекты BRK group</a>
+                        <a href="../financial_statements.html">Финансовый отчет</a>
+                        <a href="../vacancies.html">Вакансии</a>
+                    </section>
+                    <section>
+                        <p class="title">Связаться</p>
+                        <a href="https://go.2gis.com/j8eqw" target="_blank">г.Бишкек, проспект
+                            <br/> Чынгыза Айтматова 24</a>
+                        <a href="tel:+996550555577">+996 550 55 55 77</a>
+                    </section>
+                </div>
+
+                <section class="nav_social">
+                    <p class="title">Соцсети</p>
+                    <div>
+                        <a href="https://www.instagram.com/brkgroup.kg/?igsh=MWl3bzlsbWpxendpYw%3D%3D" target="_blank"><img alt="" src="../icons/instagram.svg"></a>
+                        <a href="https://m.facebook.com/100088667681941/?locale=ru_RU" target="_blank"> <img alt="" src="../icons/facebook.svg"></a>
+                        <a href="https://www.youtube.com/@brkpodcast" target="_blank"><img alt="" src="../icons/youtube.svg"></a>
+                    </div>
+                </section>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="../js/dweling_bereke.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
